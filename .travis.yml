@@ -3,10 +3,3 @@ node_js:
   - 12.16.1
 script:
   - "npm run lint"
-deploy:
-  provider: heroku
-  api_key:
-    secure: 28728d07-b7fa-4997-ba9e-5d138717d599
-  app: plateformexam
-  on:
-    repo: MouaadAitSaid/PlateformExamen
