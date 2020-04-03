@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This project is owned by AIT SAID Mouaad",
   "main": "index.js",
+  "engines": {
+    "node": "12.16.1"
+  },
   "scripts": {
     "start-dev": "nodemon index.js",
     "start": "node index.js",
