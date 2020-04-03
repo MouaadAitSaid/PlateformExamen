@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start-dev": "nodemon index.js",
+    "start": "node index.js",
     "lint": "eslint \"**/*.js\" --ignore-pattern node_modules/ || (echo \"Error: no test specified\")",
     "lint-fix": "eslint \"**/*.js\" --fix --ignore-pattern node_modules/ || (echo \"Error: no test specified\")"
   },
